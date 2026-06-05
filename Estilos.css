@@ -16,6 +16,9 @@ body {
     position: sticky; /*Se mantiene fijo en la parte superior al hacer scroll */
     top: 0;
     z-index: 1000;
+    display: flex;
+    flex-grow:1;
+    flex-wrap: wrap;
 }
 
 .menu-navegacion ul {
